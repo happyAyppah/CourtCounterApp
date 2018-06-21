@@ -23,61 +23,61 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
+                android:layout_marginBottom="@dimen/dimen8"
                 android:fontFamily="sans-serif-medium"
                 android:gravity="center_horizontal"
-                android:padding="4dp"
-                android:text="Team A"
-                android:textColor="#FF9800"
-                android:textSize="20sp" />
+                android:padding="@dimen/dimen4"
+                android:text="@string/Team_A"
+                android:textColor="@color/orange"
+                android:textSize="@dimen/dimen20" />
 
             <TextView
                 android:id="@+id/team_a_score"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="24dp"
-                android:layout_marginTop="8dp"
+                android:layout_marginBottom="@dimen/dimen24"
+                android:layout_marginTop="@dimen/dimen8"
                 android:fontFamily="sans-serif-light"
                 android:gravity="center_horizontal"
-                android:padding="4dp"
-                android:text="0"
-                android:textColor="#ffffff"
-                android:textSize="56sp" />
+                android:padding="@dimen/dimen4"
+                android:text="@string/zeroscore"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dimen56" />
 
             <Button
                 android:id="@+id/teamA_3points"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
+                android:layout_marginLeft="@dimen/dimen24"
+                android:layout_marginRight="@dimen/dimen24"
                 android:background="@drawable/buttonact"
                 android:onClick="buttonAction"
-                android:text="+3 points"
-                android:textColor="#ffffff" />
+                android:text="@string/threepoints"
+                android:textColor="@color/white" />
 
             <Button
                 android:id="@+id/teamA_2points"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
-                android:layout_marginTop="8dp"
+                android:layout_marginLeft="@dimen/dimen24"
+                android:layout_marginRight="@dimen/dimen24"
+                android:layout_marginTop="@dimen/dimen8"
                 android:background="@drawable/buttonact"
                 android:onClick="buttonAction"
-                android:text="+2 points"
-                android:textColor="#ffffff" />
+                android:text="@string/twopoints"
+                android:textColor="@color/white" />
 
             <Button
                 android:id="@+id/teamA_1points"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
-                android:layout_marginTop="8dp"
+                android:layout_marginLeft="@dimen/dimen24"
+                android:layout_marginRight="@dimen/dimen24"
+                android:layout_marginTop="@dimen/dimen8"
                 android:background="@drawable/buttonact"
                 android:onClick="buttonAction"
-                android:text="FREE THROW"
-                android:textColor="#ffffff" />
+                android:text="@string/onepoints"
+                android:textColor="@color/white" />
 
         </LinearLayout>
 
@@ -91,61 +91,61 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
+                android:layout_marginBottom="@dimen/dimen8"
                 android:fontFamily="sans-serif-medium"
                 android:gravity="center_horizontal"
-                android:padding="4dp"
-                android:text="Team B"
-                android:textColor="#FF9800"
-                android:textSize="20sp" />
+                android:padding="@dimen/dimen4"
+                android:text="@string/Team_B"
+                android:textColor="@color/orange"
+                android:textSize="@dimen/dimen20" />
 
             <TextView
                 android:id="@+id/team_b_score"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="24dp"
-                android:layout_marginTop="8dp"
+                android:layout_marginBottom="@dimen/dimen24"
+                android:layout_marginTop="@dimen/dimen8"
                 android:fontFamily="sans-serif-light"
                 android:gravity="center_horizontal"
-                android:padding="4dp"
-                android:text="0"
-                android:textColor="#ffffff"
-                android:textSize="56sp" />
+                android:padding="@dimen/dimen4"
+                android:text="@string/zeroscore"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dimen56" />
 
             <Button
                 android:id="@+id/teamB_3points"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
+                android:layout_marginLeft="@dimen/dimen24"
+                android:layout_marginRight="@dimen/dimen24"
                 android:background="@drawable/buttonact"
                 android:onClick="buttonAction"
-                android:text="+3 points"
-                android:textColor="#ffffff" />
+                android:text="@string/threepoints"
+                android:textColor="@color/white" />
 
             <Button
                 android:id="@+id/teamB_2points"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
-                android:layout_marginTop="8dp"
+                android:layout_marginLeft="@dimen/dimen24"
+                android:layout_marginRight="@dimen/dimen24"
+                android:layout_marginTop="@dimen/dimen8"
                 android:background="@drawable/buttonact"
                 android:onClick="buttonAction"
-                android:text="+2 points"
-                android:textColor="#ffffff" />
+                android:text="@string/twopoints"
+                android:textColor="@color/white" />
 
             <Button
                 android:id="@+id/teamB_1points"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
-                android:layout_marginTop="8dp"
+                android:layout_marginLeft="@dimen/dimen24"
+                android:layout_marginRight="@dimen/dimen24"
+                android:layout_marginTop="@dimen/dimen8"
                 android:background="@drawable/buttonact"
                 android:onClick="buttonAction"
-                android:text="FREE THROW"
-                android:textColor="#ffffff" />
+                android:text="@string/onepoints"
+                android:textColor="@color/white" />
 
         </LinearLayout>
 
@@ -159,8 +159,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="32dp"
         android:onClick="buttonAction"
-        android:text="Reset"
-        android:textColor="#ffffff" />
+        android:text="@string/reset"
+        android:textColor="@color/white" />
 </RelativeLayout>
 
 
